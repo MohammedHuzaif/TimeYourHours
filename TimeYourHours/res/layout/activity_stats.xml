@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StatsActivity"  
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/statsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statsscreen" />
+    
+    <TextView
+        android:id="@+id/statsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statsText" />
+        
+    <ScrollView 
+	    android:id="@+id/layout" 
+	    android:layout_height="match_parent"     
+	    android:layout_width="match_parent"      
+	    android:scrollbars="horizontal|vertical"    
+	    android:layout_marginTop="5dip"     
+	    android:scrollbarStyle="outsideInset"
+	    android:fillViewport="true" > 
+
+    <HorizontalScrollView 
+        android:id="@+id/horizontalView" 
+        android:layout_height="wrap_content"     
+        android:scrollbars="horizontal|vertical" 
+        android:layout_width="wrap_content"     
+        android:layout_marginTop="5dip"
+        android:fillViewport="true">
+        
+          
+     <TableLayout
+        android:id="@+id/tablelayoutstats"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"> 
+           
+         <TableRow
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/sno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/sno"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/date"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+
+                <TextView
+                    android:id="@+id/task"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/task"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+
+                <TextView
+                    android:id="@+id/starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/starttime"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+
+                <TextView
+                    android:id="@+id/endtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/endtime"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+          
+                <TextView
+                    android:id="@+id/elapsedtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/elapsedtime"
+                    android:padding="8dp"
+                    android:textColorHint="#B8B8B8"
+                    android:background="#D7DBDE" 
+                    />
+
+            </TableRow>
+            
+    </TableLayout>  
+    
+    </HorizontalScrollView>
+    
+    </ScrollView>
+    
+   </LinearLayout>

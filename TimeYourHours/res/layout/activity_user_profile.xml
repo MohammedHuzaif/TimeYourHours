@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UserProfile" 
+    android:background="#0080FF">
+
+    <ImageView
+        android:id="@+id/apptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/apptitle"
+        android:paddingTop="10dp" />
+    
+    <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp" 
+        android:paddingBottom="20dp"
+        android:shrinkColumns="*"  
+        android:stretchColumns="*" 
+        android:layout_below="@id/apptitle"
+        >
+        
+        <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+         
+    	<TextView 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/firstname"
+        	/>
+    	<TextView 
+        	android:id="@+id/firstname"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/firstnameDB"
+        	/>
+    	</TableRow>
+    
+        <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+            <TextView 
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/lastname"
+        		/>
+    		<TextView 
+        		android:id="@+id/lastnameDB"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/lastnameDB"
+        		/>            
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+            <TextView 
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/emailid"
+        		/>
+    		<TextView 
+        		android:id="@+id/emailidDB"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/emailidDB"
+        		/>            
+        </TableRow>
+               
+</TableLayout>
+
+    <TableLayout
+        android:id="@+id/tablelayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tablelayout1"
+        android:paddingTop="20dp" 
+        android:paddingBottom="20dp"
+        android:shrinkColumns="*"  
+        android:stretchColumns="*"         
+        android:layout_alignParentBottom="true"
+        >
+        
+        <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            
+        <Button            
+        android:id="@+id/resetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetpassword"
+        />
+        
+        <Button            
+        android:id="@+id/editdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editdetails"
+        />
+        
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <Button            
+        android:id="@+id/logoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_lable"
+        android:onClick="logout"
+        />
+        
+        <Button            
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        />
+        
+        </TableRow>
+    </TableLayout>
+    
+    
+</RelativeLayout>

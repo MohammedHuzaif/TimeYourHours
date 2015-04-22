@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time Your Hours</string>
+    <string name="KEY_TIMERID">TimerId</string>
+    <string name="KEY_USERID">UserID</string>
+    <string name="KEY_TIMERDATE">TmerDate</string>
+    <string name="KEY_TASK">TASK</string>
+    <string name="KEY_STARTTIME">StartTime</string>
+    <string name="KEY_STOPTIME">StopTime</string>
+    <string name="KEY_TIMEDURATION">TimerDuration</string>    
+    <string name="action_settings">Settings</string>
+    <string name="apptitle">Time Your Hours</string>
+    <string name="splashscreen">Time Your Hours</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="subMenu">subMenu</string>
+    <string name="homescreen">HOME SCREEN</string>
+    <string name="login_lable">LOGIN</string>
+    <string name="logout_lable">LOGOUT</string>
+    <string name="register_lable">REGISTER</string>
+    <string name="submit">SUBMIT</string>
+    <string name="emailid">Email ID:</string>
+    <string name="emailidDB">Email ID DB</string>
+    <string name="emailhelptext">mail@company.com</string>
+    <string name="firstname">First Name:</string>
+    <string name="firstnameDB">firstnameDB</string>
+    <string name="firstnamehint">JOHN</string>
+    <string name="lastname">Last Name:</string>
+    <string name="lastnameDB">lastnameDB</string>
+    <string name="lastnamehint">RAMBO</string>
+    <string name="passwordhint">LOGIN PIN</string>
+    <string name="passwordhelp">* * * *</string>
+    <string name="confirmpasswordhint">CONFIRM PIN </string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="starttimer">START TIMER</string>
+    <string name="stoptimer">END OF SHIFT....!!!</string>
+    <string name="pausetimer">PAUSE</string>
+    <string name="continuetimer">CONTINUE</string>
+    <string name="timerzero">00:00:00</string>
+    <string name="timerMs">.00</string>
+    <string name="userprofile">MY PROFILE</string>
+    <string name="statsactivity">STATS</string>
+    <string name="guide">Guide</string>
+    <string name="getdatabase">DB</string>
+    <string name="getDatabaseUserTable">User Table</string>
+    <string name="getDatabaseTimerTable">Timer Table</string>
+    <string name="tip1">- Stop the timer at the end of your shift.</string>
+    <string name="tip2">- Pause/Continue timer on every break.</string>
+    <string name="tip3">- Access Stats screen from the menu.</string>
+    <string name="tip4">- Edit your profile from the menu.</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="myprofile">MY PROFILE</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="statsscreen">Your Time Statistics</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="guidescreen">Help....</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="editdetails">Edit Details</string>
+    <string name="back">Back</string>
+    <string name="title_activity_database_data">DatabaseData</string>
+    <string name="userID">UserID</string>
+    <string name="underLine">______________________________</string>
+    <string name="statsText">Stats here</string>
+    <string name="sno">S.NO.</string>
+    <string name="date">Date</string>
+    <string name="task">Task</string>
+    <string name="starttime">Start Time</string>
+    <string name="endtime">End Time</string>
+    <string name="elapsedtime">Duration</string>
+    
+</resources>
+
